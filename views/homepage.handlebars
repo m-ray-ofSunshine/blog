@@ -1,9 +1,9 @@
 {{#each posts as |post| }}
 <div class="card col-12 m-3">
     <div class="card-body">
-        <h5 class="card-title">{{post.title}}</h5>
-        <h6 class="card-subtitle mb-2 text-muted">{{post.user.name}}</h6>
-        <p class="card-text">{{post.description}}</p>
+        <a href="/post/{{post.id}}"><h3>{{post.title}}</h3></a>
+        <h6 class="card-subtitle mb-2 text-muted">By: {{post.user.name}}</h6>
+        <p class="card-text">Date posted: {{format_date post.date_created}}</p>
     </div>
 </div>
 {{/each}}
