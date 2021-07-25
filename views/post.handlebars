@@ -20,7 +20,7 @@
     <div class="row mb-2">
       <div class="col-md-8">
         <h4>{{comment.comment}}</h4>
-        <p>Data posted: {{format_date comment.date_created}}</p>
+        <p>Posted by {{comment.user.name}} on {{format_date comment.date_created}}</p>
 
       </div>
     </div>
