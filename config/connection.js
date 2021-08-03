@@ -10,12 +10,9 @@ if (process.env.JAWSDB_URL) {
     HOST: 'us-cdbr-east-04.cleardb.com',
     USER: 'bed2f77e2a6c44',
     PASSWORD: '39bc517d',
-    DB: 'heroku_fa4762c4c0c1c50'
-    // {
-    //   host: 'localhost',
-    //   dialect: 'mysql',
-    //   port: 3306
-    // },
+    DB: 'heroku_fa4762c4c0c1c50',
+    dialect: 'mysql',
+
   });
 }
 
