@@ -1,8 +1,7 @@
 const newFormHandler = async (event) => {
     event.preventDefault();
   
-    const comment = document.querySelector('#comment').value.trim();
-  console.log(comment);
+    const comment = document.querySelector('#comment').value.trim()
     console.log(comment);
     if (comment) {
       const response = await fetch('/api/comment/', {
@@ -16,6 +15,7 @@ const newFormHandler = async (event) => {
       if (response.ok) {
         location.reload();
       } else {
+        console.log(response);
         alert('Failed to create project');
       }
     }
