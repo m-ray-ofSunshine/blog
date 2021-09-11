@@ -1,3 +1,4 @@
+![Logo of the project](./assets/images/blog_homepage.JPG)
 # Blog
 
   ## Description
@@ -24,9 +25,15 @@ The app is for making posts to a blog site. IT will mainly be used as a bare bon
 
 Deployed web app: [https://pure-refuge-14936.herokuapp.com/](https://pure-refuge-14936.herokuapp.com/)
 
+## Images
+
+![Dashboard](./assets/images/blog_dashboard.JPG)
+![Details](./assets/images/blog_details.JPG)
+![Login](./assets/images/blog_login.JPG)
+
 
 ## Questions
 
-If you have any questions you can find me on Git hub at [m-ray-ofSunshine](https://github.com/m-ray-ofSunshine)
+If you have any questions you can find me on Github at [m-ray-ofSunshine](https://github.com/m-ray-ofSunshine)
 
 
